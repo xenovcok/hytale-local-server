@@ -14,6 +14,8 @@ class HytaleServer {
         };
         this.tickRate = 20; // 20 ticks per second
         this.running = false;
+        this.gameLoopInterval = null;
+        this.WORLD_UPDATE_FREQUENCY = 100; // Broadcast world updates every 100 ticks
     }
 
     start() {
@@ -158,7 +160,7 @@ class HytaleServer {
     startGameLoop() {
         const tickInterval = 1000 / this.tickRate;
         
-        setInterval(() => {
+        this.gameLoopInterval = setInterval(() => {
             if (this.running) {
                 this.tick();
             }
@@ -170,7 +172,7 @@ class HytaleServer {
         this.worldState.timeOfDay = (this.worldState.timeOfDay + 0.01) % 24;
 
         // Send periodic updates to all players
-        if (Math.floor(this.worldState.timeOfDay * 100) % 100 === 0) {
+        if (Math.floor(this.worldState.timeOfDay * this.WORLD_UPDATE_FREQUENCY) % this.WORLD_UPDATE_FREQUENCY === 0) {
             this.broadcast({
                 type: 'worldUpdate',
                 worldState: this.worldState
@@ -189,6 +191,12 @@ class HytaleServer {
     stop() {
         console.log('[Hytale Server] Shutting down server...');
         this.running = false;
+        
+        // Clear the game loop interval
+        if (this.gameLoopInterval) {
+            clearInterval(this.gameLoopInterval);
+            this.gameLoopInterval = null;
+        }
         
         this.broadcast({
             type: 'serverShutdown',
