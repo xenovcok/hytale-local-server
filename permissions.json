@@ -1,0 +1,26 @@
+{
+  "users": {
+    "dc311f49-4742-47b3-aefb-d555fd07ac8e": {
+      "groups": [
+        "Adventure"
+      ]
+    },
+    "93e8a8ed-d443-47a7-be67-97277b9ef260": {
+      "groups": [
+        "OP",
+        "Adventure"
+      ]
+    },
+    "4c9340d7-46d4-4d07-a047-4709cc19480e": {
+      "groups": [
+        "Adventure"
+      ]
+    }
+  },
+  "groups": {
+    "Default": [],
+    "OP": [
+      "*"
+    ]
+  }
+}
