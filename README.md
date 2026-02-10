@@ -76,6 +76,16 @@ node client.js Bob
 node client.js Charlie
 ```
 
+### Running the Demo
+
+To see all features in action with a scripted demo:
+
+```bash
+npm run demo
+```
+
+This will start a server and simulate multiple players joining, chatting, moving, and performing actions.
+
 ## Configuration
 
 Edit `config.json` to customize your server settings:
