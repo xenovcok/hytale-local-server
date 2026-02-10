@@ -1,0 +1,27 @@
+{
+  "name": "hytale-local-server",
+  "version": "1.0.0",
+  "description": "A local server for Hytale to have fun with friends",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "client": "node client.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xenovcok/hytale-local-server.git"
+  },
+  "keywords": ["hytale", "server", "game", "local", "multiplayer"],
+  "author": "",
+  "license": "MIT",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/xenovcok/hytale-local-server/issues"
+  },
+  "homepage": "https://github.com/xenovcok/hytale-local-server#readme",
+  "dependencies": {
+    "uuid": "^13.0.0",
+    "ws": "^8.19.0"
+  }
+}

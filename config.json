@@ -1,0 +1,17 @@
+{
+  "port": 8080,
+  "maxPlayers": 10,
+  "tickRate": 20,
+  "worldSettings": {
+    "worldName": "HytaleWorld",
+    "seed": 12345,
+    "difficulty": "normal",
+    "pvp": true,
+    "spawnProtection": true
+  },
+  "serverSettings": {
+    "motd": "Welcome to Hytale Local Server!",
+    "maxViewDistance": 10,
+    "enableWhitelist": false
+  }
+}
