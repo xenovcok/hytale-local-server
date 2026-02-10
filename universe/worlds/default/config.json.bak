@@ -21,7 +21,7 @@
   "IsPvpEnabled": false,
   "IsFallDamageEnabled": true,
   "IsGameTimePaused": false,
-  "GameTime": "0001-01-03T13:19:53.599927923Z",
+  "GameTime": "0001-01-03T23:54:32.557795283Z",
   "ClientEffects": {
     "SunHeightPercent": 100.0,
     "SunAngleDegrees": 0.0,
@@ -46,6 +46,14 @@
   "DeleteOnRemove": false,
   "ResourceStorage": {
     "Type": "Hytale"
+  },
+  "Death": {
+    "RespawnController": {
+      "Type": "HomeOrSpawnPoint"
+    },
+    "ItemsLossMode": "Configured",
+    "ItemsAmountLossPercentage": 0,
+    "ItemsDurabilityLossPercentage": 0
   },
   "Plugin": {}
 }

@@ -36,6 +36,14 @@
   "IsSpawnMarkersEnabled": true,
   "IsAllNPCFrozen": false,
   "GameplayConfig": "Default",
+  "Death": {
+    "RespawnController": {
+      "Type": "HomeOrSpawnPoint"
+    },
+    "ItemsLossMode": "Configured",
+    "ItemsAmountLossPercentage": 0.0,
+    "ItemsDurabilityLossPercentage": 0.0
+  },
   "IsCompassUpdating": true,
   "IsSavingPlayers": true,
   "IsSavingChunks": true,
