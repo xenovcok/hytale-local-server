@@ -9,6 +9,26 @@
       "Name": "server.items.Forgotten_Temple_Portal_Enter.name",
       "Icon": "Temple_Gateway.png",
       "MarkerId": "28f3609c-291b-4424-8ead-733874af2677"
+    },
+    "2179742051338289920": {
+      "Position": {
+        "X": 768,
+        "Y": 120,
+        "Z": -1254
+      },
+      "Name": "server.items.Forgotten_Temple_Portal_Enter.name",
+      "Icon": "Temple_Gateway.png",
+      "MarkerId": "e11818ce-7817-4fc5-acf6-6f4635d92daa"
+    },
+    "2017613024709314097": {
+      "Position": {
+        "X": 1585,
+        "Y": 112,
+        "Z": 2918
+      },
+      "Name": "server.items.Forgotten_Temple_Portal_Enter.name",
+      "Icon": "Temple_Gateway.png",
+      "MarkerId": "a858ffb2-b311-476d-90df-f3ee8fbb7123"
     }
   }
 }

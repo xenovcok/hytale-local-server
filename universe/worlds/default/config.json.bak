@@ -21,7 +21,7 @@
   "IsPvpEnabled": false,
   "IsFallDamageEnabled": true,
   "IsGameTimePaused": false,
-  "GameTime": "0001-01-03T23:54:32.557795283Z",
+  "GameTime": "0001-01-22T07:52:33.044257928Z",
   "ClientEffects": {
     "SunHeightPercent": 100.0,
     "SunAngleDegrees": 0.0,
@@ -36,6 +36,14 @@
   "IsSpawnMarkersEnabled": true,
   "IsAllNPCFrozen": false,
   "GameplayConfig": "Default",
+  "Death": {
+    "RespawnController": {
+      "Type": "HomeOrSpawnPoint"
+    },
+    "ItemsLossMode": "Configured",
+    "ItemsAmountLossPercentage": 0.0,
+    "ItemsDurabilityLossPercentage": 0.0
+  },
   "IsCompassUpdating": true,
   "IsSavingPlayers": true,
   "IsSavingChunks": true,
@@ -46,14 +54,6 @@
   "DeleteOnRemove": false,
   "ResourceStorage": {
     "Type": "Hytale"
-  },
-  "Death": {
-    "RespawnController": {
-      "Type": "HomeOrSpawnPoint"
-    },
-    "ItemsLossMode": "Configured",
-    "ItemsAmountLossPercentage": 0,
-    "ItemsDurabilityLossPercentage": 0
   },
   "Plugin": {}
 }

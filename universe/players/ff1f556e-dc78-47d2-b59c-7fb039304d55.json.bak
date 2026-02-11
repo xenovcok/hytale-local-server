@@ -20,13 +20,13 @@
     "UIComponentList": {},
     "Transform": {
       "Position": {
-        "X": 67.4136962890625,
+        "X": -111.33668518066406,
         "Y": 115.0,
-        "Z": 76.71747589111328
+        "Z": -22.75419807434082
       },
       "Rotation": {
         "Pitch": 0.0,
-        "Yaw": -1.284106969833374,
+        "Yaw": -0.4266674220561981,
         "Roll": 0.0
       }
     },
@@ -52,25 +52,18 @@
           "Id": "Simple",
           "Capacity": 36,
           "Items": {
-            "0": {
-              "Id": "Food_Kebab_Vegetable",
-              "Quantity": 2,
-              "Durability": 0.0,
-              "MaxDurability": 0.0,
-              "OverrideDroppedItemAnimation": false
-            },
-            "2": {
-              "Id": "Plant_Flower_Tall_Purple",
-              "Quantity": 9,
-              "Durability": 0.0,
-              "MaxDurability": 0.0,
-              "OverrideDroppedItemAnimation": false
-            },
-            "1": {
-              "Id": "Tool_Pickaxe_Crude",
+            "8": {
+              "Id": "Food_Beef_Raw",
               "Quantity": 1,
               "Durability": 0.0,
-              "MaxDurability": 142.0,
+              "MaxDurability": 0.0,
+              "OverrideDroppedItemAnimation": false
+            },
+            "9": {
+              "Id": "Furniture_Crude_Torch",
+              "Quantity": 1,
+              "Durability": 0.0,
+              "MaxDurability": 0.0,
               "OverrideDroppedItemAnimation": false
             }
           }
@@ -80,10 +73,31 @@
           "Capacity": 4,
           "Items": {
             "0": {
-              "Id": "Armor_Copper_Head",
+              "Id": "Armor_Iron_Head",
               "Quantity": 1,
-              "Durability": 73.5,
-              "MaxDurability": 80.0,
+              "Durability": 98.5,
+              "MaxDurability": 100.0,
+              "OverrideDroppedItemAnimation": false
+            },
+            "2": {
+              "Id": "Armor_Iron_Hands",
+              "Quantity": 1,
+              "Durability": 97.0,
+              "MaxDurability": 100.0,
+              "OverrideDroppedItemAnimation": false
+            },
+            "1": {
+              "Id": "Armor_Iron_Chest",
+              "Quantity": 1,
+              "Durability": 97.0,
+              "MaxDurability": 100.0,
+              "OverrideDroppedItemAnimation": false
+            },
+            "3": {
+              "Id": "Armor_Iron_Legs",
+              "Quantity": 1,
+              "Durability": 98.0,
+              "MaxDurability": 100.0,
               "OverrideDroppedItemAnimation": false
             }
           }
@@ -93,66 +107,38 @@
           "Capacity": 9,
           "Items": {
             "0": {
-              "Id": "Weapon_Daggers_Copper",
+              "Id": "Weapon_Daggers_Iron",
               "Quantity": 1,
-              "Durability": 89.00000000000063,
-              "MaxDurability": 100.0,
+              "Durability": 116.00000000000023,
+              "MaxDurability": 120.0,
+              "OverrideDroppedItemAnimation": false
+            },
+            "8": {
+              "Id": "*Tool_Watering_Can_State_Filled_Water",
+              "Quantity": 1,
+              "Durability": 3.0,
+              "MaxDurability": 20.0,
               "OverrideDroppedItemAnimation": false
             },
             "1": {
-              "Id": "Tool_Pickaxe_Crude",
+              "Id": "Tool_Hoe_Crude",
               "Quantity": 1,
-              "Durability": 114.25,
-              "MaxDurability": 150.0,
+              "Durability": 77.0,
+              "MaxDurability": 100.0,
               "OverrideDroppedItemAnimation": false
             },
-            "3": {
+            "7": {
               "Id": "Container_Bucket",
               "Quantity": 1,
               "Durability": 0.0,
               "MaxDurability": 0.0,
               "OverrideDroppedItemAnimation": false
             },
-            "2": {
-              "Id": "Tool_Hatchet_Crude",
-              "Quantity": 1,
-              "Durability": 128.0,
-              "MaxDurability": 150.0,
-              "OverrideDroppedItemAnimation": false
-            },
-            "7": {
-              "Id": "Food_Wildmeat_Cooked",
-              "Quantity": 1,
-              "Durability": 0.0,
-              "MaxDurability": 0.0,
-              "OverrideDroppedItemAnimation": false
-            },
-            "6": {
-              "Id": "Ingredient_Fibre",
-              "Quantity": 4,
-              "Durability": 0.0,
-              "MaxDurability": 0.0,
-              "OverrideDroppedItemAnimation": false
-            },
-            "4": {
-              "Id": "Tool_Hoe_Crude",
-              "Quantity": 1,
-              "Durability": 69.0,
-              "MaxDurability": 100.0,
-              "OverrideDroppedItemAnimation": false
-            },
             "5": {
-              "Id": "Tool_Hatchet_Crude",
+              "Id": "Tool_Pickaxe_Thorium",
               "Quantity": 1,
-              "Durability": 150.0,
-              "MaxDurability": 150.0,
-              "OverrideDroppedItemAnimation": false
-            },
-            "8": {
-              "Id": "Food_Wildmeat_Raw",
-              "Quantity": 14,
-              "Durability": 0.0,
-              "MaxDurability": 0.0,
+              "Durability": 54.5,
+              "MaxDurability": 325.0,
               "OverrideDroppedItemAnimation": false
             }
           }
@@ -162,14 +148,7 @@
           "Capacity": 4,
           "Items": {
             "0": {
-              "Id": "Furniture_Crude_Torch",
-              "Quantity": 6,
-              "Durability": 0.0,
-              "MaxDurability": 0.0,
-              "OverrideDroppedItemAnimation": false
-            },
-            "1": {
-              "Id": "Weapon_Shield_Scrap",
+              "Id": "Weapon_Shield_Iron",
               "Quantity": 1,
               "Durability": 0.0,
               "MaxDurability": 0.0,
@@ -230,15 +209,23 @@
           }
         },
         "ActiveToolsSlot": -1,
-        "ActiveUtilitySlot": -1,
+        "ActiveUtilitySlot": 3,
         "SortType": "Type"
       },
       "PlayerData": {
-        "BlockIdVersion": 1,
+        "BlockIdVersion": 11,
         "World": "default",
         "KnownRecipes": [],
         "PerWorldData": {
           "default": {
+            "LastPosition": {
+              "X": -92.46260833740234,
+              "Y": 116.1500015258789,
+              "Z": -30.25536346435547,
+              "Pitch": -0.15400004386901855,
+              "Yaw": -1.7307500839233398,
+              "Roll": 0.0
+            },
             "LastMovementStates": {
               "Flying": false
             },
@@ -246,16 +233,16 @@
             "RespawnPoints": [
               {
                 "BlockPosition": {
-                  "X": -114,
+                  "X": -97,
                   "Y": 115,
-                  "Z": -21
+                  "Z": -36
                 },
                 "RespawnPosition": {
-                  "X": -113.5,
-                  "Y": 115.15000000596046,
-                  "Z": -20.975000023841858
+                  "X": -96.10000002384186,
+                  "Y": 116.54999995231628,
+                  "Z": -34.825000047683716
                 },
-                "Name": "Gator"
+                "Name": "gatorkoco's bed"
               }
             ],
             "DeathPositions": [
@@ -275,10 +262,15 @@
           }
         },
         "DiscoveredZones": [
-          "Zone1_Spawn",
+          "Zone4_Tier5",
+          "Zone3_Tier1",
           "Zone1_Tier3",
+          "Zone3_Tier3",
+          "Zone3_Tier2",
+          "Zone1_Spawn",
           "Zone1_Tier2",
-          "Zone1_Tier1"
+          "Zone1_Tier1",
+          "Zone4_Shore_Tier5"
         ],
         "DiscoveredInstances": [],
         "ReputationData": {},
@@ -287,7 +279,75 @@
       "BlockPlacementOverride": false,
       "HotbarManager": {
         "SavedHotbars": [
-          null,
+          {
+            "Id": "Simple",
+            "Capacity": 9,
+            "Items": {
+              "0": {
+                "Id": "Weapon_Daggers_Iron",
+                "Quantity": 1,
+                "Durability": 116.00000000000023,
+                "MaxDurability": 120.0,
+                "OverrideDroppedItemAnimation": false
+              },
+              "2": {
+                "Id": "Food_Wildmeat_Cooked",
+                "Quantity": 23,
+                "Durability": 0.0,
+                "MaxDurability": 0.0,
+                "OverrideDroppedItemAnimation": false
+              },
+              "6": {
+                "Id": "Ingredient_Fabric_Scrap_Linen",
+                "Quantity": 28,
+                "Durability": 0.0,
+                "MaxDurability": 0.0,
+                "OverrideDroppedItemAnimation": false
+              },
+              "4": {
+                "Id": "Armor_Iron_Hands",
+                "Quantity": 1,
+                "Durability": 100.0,
+                "MaxDurability": 100.0,
+                "OverrideDroppedItemAnimation": false
+              },
+              "8": {
+                "Id": "*Tool_Watering_Can_State_Filled_Water",
+                "Quantity": 1,
+                "Durability": 14.0,
+                "MaxDurability": 20.0,
+                "OverrideDroppedItemAnimation": false
+              },
+              "1": {
+                "Id": "Tool_Hoe_Crude",
+                "Quantity": 1,
+                "Durability": 77.0,
+                "MaxDurability": 100.0,
+                "OverrideDroppedItemAnimation": false
+              },
+              "3": {
+                "Id": "Food_Wildmeat_Cooked",
+                "Quantity": 18,
+                "Durability": 0.0,
+                "MaxDurability": 0.0,
+                "OverrideDroppedItemAnimation": false
+              },
+              "7": {
+                "Id": "Container_Bucket",
+                "Quantity": 1,
+                "Durability": 0.0,
+                "MaxDurability": 0.0,
+                "OverrideDroppedItemAnimation": false
+              },
+              "5": {
+                "Id": "Tool_Pickaxe_Thorium",
+                "Quantity": 1,
+                "Durability": 54.5,
+                "MaxDurability": 325.0,
+                "OverrideDroppedItemAnimation": false
+              }
+            }
+          },
           null,
           null,
           null,
@@ -328,12 +388,12 @@
         },
         "Health": {
           "Id": "Health",
-          "Value": 62.202518463134766,
+          "Value": 139.0,
           "Modifiers": {
             "Armor_ADDITIVE": {
               "Id": "Static",
               "CalculationType": "Additive",
-              "Amount": 5.0
+              "Amount": 46.0
             }
           }
         },
@@ -363,7 +423,7 @@
         },
         "SignatureEnergy": {
           "Id": "SignatureEnergy",
-          "Value": 6.0,
+          "Value": 0.0,
           "Modifiers": {
             "*Weapon_0": {
               "Id": "Static",
@@ -388,8 +448,8 @@
     },
     "HeadRotation": {
       "Rotation": {
-        "Pitch": -0.09079673141241074,
-        "Yaw": -2.069505214691162,
+        "Pitch": -0.40404534339904785,
+        "Yaw": -1.0237430334091187,
         "Roll": 0.0
       }
     }

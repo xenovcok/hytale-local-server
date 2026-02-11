@@ -8,27 +8,16 @@
     "93e8a8ed-d443-47a7-be67-97277b9ef260": {
       "groups": [
         "OP",
-        "Adventure"
-      ]
-    },
-    "4c9340d7-46d4-4d07-a047-4709cc19480e": {
-      "groups": [
-        "Adventure"
-      ]
-    },
-    "dcb9540e-f7be-4437-bd27-ffb6217edef6": {
-      "groups": [
-        "Adventure"
-      ]
-    },
-    "ff1f556e-dc78-47d2-b59c-7fb039304d55": {
-      "groups": [
-        "Adventure"
+        "Adventure",
+        "beginner"
       ]
     }
   },
   "groups": {
     "Default": [],
+    "beginner": [
+      "hytale.command.teleport.*"
+    ],
     "OP": [
       "*"
     ]
